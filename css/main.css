@@ -15,6 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	font-family:Arial;
 }
 body {
 	line-height: 1;
@@ -65,7 +66,7 @@ body {
 }
 #left_column a{
    font-size:14px;
-    color:#666;
+    color:#6f7673;
 	text-decoration:none;
 }
 #left_column a:hover{
@@ -95,8 +96,7 @@ body {
     font-size:16px;
 }
 
-#catalog { 
-   
+#catalog {  
 }
 
 #right_column{
@@ -114,7 +114,7 @@ body {
     margin:15px 0 30px 0;
 }
 .article_column a{
-   color:#666;
+   color:#333;
    text-decoration:none;
 }
 .article_column a:hover{
@@ -122,13 +122,13 @@ body {
 }
 .article_column h2 a{
    display:block;
-   border-left:18px solid #ccc;
+   border-left:18px solid #c4c4c4;
    padding-left:10px;
    color:#333;
     font-size:18px;
 	font-weight:700;
 	height:18px;
-	margin:5px 0;
+	margin:9px 0;
 	line-height:18px;
 }
 
@@ -141,10 +141,17 @@ body {
 	color:#999;
 	line-height:22px;
 }
+.data a{
+	color:#666;
+}
 .main_article{
   	font-size:14px;
 	color:#666;
-	line-height:22px;
+	line-height:190%;
+}
+.main_article p{
+    display:block;
+    margin:12px 0;
 }
 .read_more{
    font-size:12px;
@@ -156,7 +163,7 @@ body {
    margin-top:20px;
 }
 #nav_below a{
-   color:#ccc;
+   color:#999;
 }
 
 #nav_below a:hover{
@@ -172,6 +179,21 @@ body {
    font-size:14px;
    color:#999;
    border-top:1px dotted #ccc;
-   margin:50px 5px;
+   margin:30px 5px;
    line-height:26px;
+}
+#footer a{
+   color:#666
+}
+
+#douban_fm{
+   margin:20px 0;
+}
+
+#douban_movie{
+   margin:20px 0;
+}
+
+#douban_movie img{
+   margin:5px;
 }
