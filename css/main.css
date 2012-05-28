@@ -149,6 +149,9 @@ body {
 	color:#666;
 	line-height:190%;
 }
+.main_article a{
+	color:#FC7F10;
+}
 .main_article p{
     display:block;
     margin:12px 0;
