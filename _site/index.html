@@ -1,9 +1,140 @@
+<!Doctype html>
+<html xmlns=http://www.w3.org/1999/xhtml>
+<head>
+      <meta http-equiv=Content-Type content="text/html;charset=utf-8" />
+       <title>Jacob蜀黍的小屋</title>
+	   <meta content="Jacob蜀黍的小屋" name="description" />
+	   <meta content="bronn,bronnzheng,Jacob,jacob蜀黍" name="keywords" />
+	   <meta content="bronn" content="author"/>
+	   <link href="http://jtskyin.github.com/css/main.css" rel="stylesheet" type="text/css" media="screen"/>
+	   <link href="http://jtskyin.github.com/css/favicon.ico" rel="icon" type="image/x-icon"/>
+    </head>
+    <body>
+	     <div id="left_column">
+	          <h1><a href="http://jtskyin.github.com" alt="Jacob's Blog"> <image id="logo" alt="Jacob's Blog" src="http://jtskyin.github.com/css/logo_.png"/></br><p id="name">Jacob's Blog<p></a></h1>
+		      <div id="nav">
+			        <p><a href="http://jtskyin.github.com/about.html">about</a></p>
+					<p><a href="http://jtskyin.github.com/archives">archives</a></p>
+					<p><a href="http://jtskyin.github.com/movie_music.html">m<sup>2</sup></a></p>
+			  </div>
+			  <dl id="catalog">
+			     <dt>category</dt>
+				 
+				 <dd><a href="/categories/thinking/">thinking</a></dd>
+				
+				 <dd><a href="/categories/works/">works</a></dd>
+				
+				 <dd><a href="/categories/study/">study</a></dd>
+				
+				 <dd><a href="/categories/practice/">practice</a></dd>
+				
+			  </dd>
+			  <dl id="links">
+			    <dt>friends</dt>
+				<dd><a href="http://dbthe.com" rel="friend colleague" target="_blank">Blueeon</a></dd>
+               <dd><a href="http://himeters.com/" title="Hi Meters" target="_blank">Hi Meters</a></dd>
+				<dd><a href="http://blog.larrx.info/" target="_blank">Larrx</a></dd>
+				<dd><a href="http://tomzhou.sinaapp.com/" title="好哥们儿@tx" target="_blank">ReeZhou</a></dd>
+				<dd><a href="http://blog.yalog.info" title="王亚龙" target="_blank">yaLog</a></dd>
+				<dd><a href="http://yangha.me/" title="东阳">东阳</a></dd>
+			  </dl>
+			  <dl id="rss">
+			     <dt>subscribe</dt>
+				 <dd><a href="http://blog.yalog.info/atom.xml" title="Feed" rel="alternate" type="application/rss+xml" class="rss-feed">RSS Feed</a></dd>
+			  </dl>
+		</div>
+
 		<!--Main Article-->
 		<div id="right_column">
-		
+			
+
+<div class="article_column">
+	<h2><a href="/2011/11/09/learn-write-hash/">学写hash</a></h2>
+	<p class="data">2011年11月09日00点%i分 | 分类:
+	
+	</p>
+	<div class="main_article"><p>相信看这篇文章的人都学过Hash，但是学归学过，第一个hash函数就是不知道应该如何开始。所以了，这里不讨论书本上讲的内容，不讲理论，就是要告诉大家如何设计第一个Hash函数，当然大神们飘过<sup>_^</sup></p>
+
+<p>我觉得那些关于数字方面的hash还是蛮简单的，只要明白字符串的hash怎么做了，其它的应该都会了。很简单的思考一下字符串hash，大不了我们把每个byte或者每几个byte相加呗，貌似是一个不错的想法。但是我们看一下这个样一个字符串”abcdef”和”fedcba”。你可以发现，这两个字符串是相互颠倒的，明显不应该是同一个字符串，按照上面的方法计算的值确实一样的。</p>
+
+<p>Ok，再来看几种情况，”abcdef”和”acbdfe”， ”abcdef”和”aaceef”，他们按照上面的方法计算的值依然是一样的。总结一下这几种情况，一是存在的字符一样，只是位置不一致；二是它们在某些字符上面加上和减去相同值导致。我们肉眼看到的不同字符串，结果计算的hash值是一样的。之所以是这样，是因为我们看到的字符串中的字符是有位置顺序的，因此我们必须把这个因素考虑进去。因此，我们可以利用其他进制转化十进制时，所谓的按权位展开，把位置因素加进去。
+我们看一下有名的times33算法，它是一个字符串hash。</div>
+	
+	<div class="read_more"><a href="/2011/11/09/learn-write-hash/#more">Read More&raquo;</a></div>
+	
+</div>
+
+
+
+<div class="article_column">
+	<h2><a href="/2011/11/09/campus-recruitment-experience/">校招面经</a></h2>
+	<p class="data">2011年11月09日00点%i分 | 分类:
+	
+	</p>
+	<div class="main_article"><p>首先了，这次虽然是拿到了几个offer，但找工作的时候还是挺郁闷的。我找的是开发类的工作，偏向后端的那种，有一家向往已久了公司，不过最后还是选择去了另一家。总之了，这里写写面经赞赞人品。</p>
+
+<p>面经在网上一搜一大把，很多的是讲面试的流水账。开始了，在面试技巧方面我先阐述一下，这个算是个人的心得吧。如果你没有面试过，我劝你还是先找几家不是很想去的公司练练，实践才能出真理嘛。在面试的时候一定要表现的自信，能够让面试官从你身上看出你的不同点或者是亮点。回答问题的时候，需要表现出自己是一个有思想、有想法的人。要灵活的抓住面试的主动权，能够把话题引向自己擅长的领域。自己提问也是一个非常重要的环节，通过这个环节尽量给自己贴一些金，淡化笔试或者面试中不好的地方。当然这些也不是绝对的。</div>
+	
+	<div class="read_more"><a href="/2011/11/09/campus-recruitment-experience/#more">Read More&raquo;</a></div>
+	
+</div>
+
+
+
+<div class="article_column">
+	<h2><a href="/2011/08/19/create-webserver-by-self/">自己动手写WEB SERVER (一)</a></h2>
+	<p class="data">2011年08月19日00点%i分 | 分类:
+	
+	</p>
+	<div class="main_article"><p>这个WEB SERVER 写来已经有很长时间了。中间也经历了很多事情，一开始就打算一边coding一边写相关博客的。但是总总事情一直都没有完成。现在下决心了开始写开发WEB SERVER的博客。这个WEB SERVER的代码现在会从新重构，并且完成未有完成的功能，做出第一个版本v0.1分支，这个在github.com/yalog上面会看到。</p>
+
+<p>这些文章主要阐述为什么这样coding，可能还会有理论理解方面的阐述。这些话题包括网络模型、多线程、内存管理、HTTP协议。</p>
+
+<p>这个WEB SERVER，我现在没有打算做的很强大。在v0.1版本里做到一个WEB SERVER的最小功能集合，并且达到一定的性能要求和稳定性。至于以后的版本以后再说。我们的开发环境做了很大的限制，没有做任何的移植考虑。我们的所有问题都假设在x86 2.6linux的基础之上。</p>
+
+<p>不过了，写一个功能、性能强大，足够健壮的WEB SERVER是很不容易的，还需要更多的磨练。</p>
+</div>
+	
+</div>
+
+
+
+<div class="article_column">
+	<h2><a href="/2011/07/30/suggestion-simply-realize/">suggestion简单实现</a></h2>
+	<p class="data">2011年07月30日00点%i分 | 分类:
+	
+	</p>
+	<div class="main_article"><p>今年暑假实习了，我做的了有一个模块是suggestion，也就是搜索关键词提示。 嗯。。这里了说一下我在做suggestion时的一些实现方法。</p>
+
+<p>suggestion的基本思想就是，根据你输入的一个前缀词，然后提示相关的词条。首先了，我们必须有一个suggestion词库，这个词库可以人工预制和使用各种方法来统计，来生成suggestion词库。以后所有的suggstion，都是根据这个词库来生成的。由此可知，suggestion的效果和这个词库是有莫大关系的。如果提示词想要出现在suggestion列表里，必须放在suggestion词库了。可能有的童鞋，有疑问了，为什么要我们自己建立这样一个词库，而不是使用通用的词库了。suggestion是为搜索服务的，所以suggestion必须是有利于搜索的词，再就是通过suggestion对用户的搜索行为导向。</div>
+	
+	<div class="read_more"><a href="/2011/07/30/suggestion-simply-realize/#more">Read More&raquo;</a></div>
+	
+</div>
+
+
+
+<div class="article_column">
+	<h2><a href="/2011/05/02/define/">#define的使用</a></h2>
+	<p class="data">2011年05月02日00点%i分 | 分类:
+	
+	</p>
+	<div class="main_article">首先阐明一下是预处理，预处理并不是c语言的本身组成部分。它包括三个方面：宏定义、文件包含、条件编译。而#define 就属于宏定义，我们这里只谈#define。<br />
+一般情况下的编译流程是这样的，预处理-&gt;编译-&gt;连接。可以看出预处理是在编译前面的，就是说，预处理完后的源码文件才被编译。基于这一点了，我们可以看一下#define的一些用法。</div>
+	
+	<div class="read_more"><a href="/2011/05/02/define/#more">Read More&raquo;</a></div>
+	
+</div>
+
 
 			 <div id="nav_below">
 			     <p><a href="#">← Older posts</a></p>
 			 </div>
 		</div>
 		<p style="clear:both"></p>
+
+		<div id="footer">
+		     &copy  jacob 2012 本站内容未做特别说明者均使用<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">创作共用</a>协议 Hosted by <a href="http://github.com">GitHub</a> and powered by <a href="http://www.westeros.org/">Stark</a>
+		</div>
+    </body>
+</html>

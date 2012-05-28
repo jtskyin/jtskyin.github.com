@@ -1,0 +1,145 @@
+--- 
+type: post
+status: publish
+tags: 
+- "define"
+- c
+
+title: "#define的使用"
+category: study
+
+layout: post
+meta: 
+  _edit_last: "1"
+published: true
+---
+首先阐明一下是预处理，预处理并不是c语言的本身组成部分。它包括三个方面：宏定义、文件包含、条件编译。而#define 就属于宏定义，我们这里只谈#define。<br />
+一般情况下的编译流程是这样的，预处理-&gt;编译-&gt;连接。可以看出预处理是在编译前面的，就是说，预处理完后的源码文件才被编译。基于这一点了，我们可以看一下#define的一些用法。<!--split-->
+<br />
+<strong>一、定义常量</strong><br />
+比如定义一个PI，
+#define PI 3.14159216
+float i = PI
+在使用PI后PI被替换成了相应的数值
+float i = 3.1415926
+<br />
+<strong>二、定义宏函数</strong><br />
+宏函数也是一样都是对定义的宏直接替换
+a)         一般情况下的宏函数
+如果一个函数本身比较简单或者是一些重复性的代码片段就可以定义一个宏函数
+例如：#define min(a, b) ((a) &lt;= (b) ? (a) : (b))，这样定义一个求较小值的宏函数，因为函数本身很小，这样就减少了反复调用的开销了。
+对于一些重复性的代码片段，我们也可以利用宏函数来定义，每次使用的时候调用宏函数就好了，这既便于编码也便于后期的维护。同样也举个例子：
+#define MALLOC(type, size)  (type *)malloc(sizeof(type) * (size))
+当然这不一定是一个很好的例子，但至少可以说明一些问题的，每次用简化后的MALLOC函数来分配内存空间了。这个例子只是从形式上说明了，用一个宏函数代替一段代码的作用。
+b)        特殊情况下的宏函数
+这里所说的特殊情况就是，我们一般情况会用定义一个函数去实现一个函数本身应该具有的功能， 但是在一些特说情况下，c编译器生成的函数格式并不能满足我们的要求，需要我们用汇编直接去实现一个功能调用。还是举一个例子：在linux启动的过程中，创建了任务0后，需要切换到用户态去继续运行。这时就用到了move_to_user_mode()这个宏函数，它的功能就是把程序从内核态跳转到用户态去执行。代码：
+{%highlight c linenos%}
+#define move_to_user_mode() \
+__asm__ ("movl %%esp,%%eax\n\t" \
+		 "pushl $0x17\n\t" \
+		 "pushl %%eax\n\t" \
+		 "pushfl\n\t" \
+		 "pushl $0x0f\n\t" \
+		 "pushl $1f\n\t" \
+		 "iret\n" \
+		 "1:\tmovl $0x17,%%eax\n\t" \
+		 "movw %%ax,%%ds\n\t" \
+		 "movw %%ax,%%es\n\t" \
+		 "movw %%ax,%%fs\n\t" \
+		 "movw %%ax,%%gs" \
+		 :::"ax")
+{%endhighlight%}
+或者你去看看MFC里面的宏函数，那个个用的叫做绝，用宏完成了大量琐碎重复的代码。
+<br />
+<strong>三、取别名</strong><br />
+在看在linux内核源码或者是TCP/IP协议定义时，经常经常会看到一些很复杂的结构体，夹杂着#define宏定义的一些结构，一时可能被弄的不知道所云。这里就贴上一段ICMP报文的定义：
+{%highlight c linenos%}
+struct icmp
+{
+     u_int8_t  icmp_type;  /* type of message, see below */
+     u_int8_t  icmp_code;  /* type sub code */
+     u_int16_t icmp_cksum; /* ones complement checksum of struct */
+     union
+     {
+          u_char ih_pptr;     /* ICMP_PARAMPROB */
+          struct in_addr ih_gwaddr;   /* gateway address */
+          struct ih_idseq     /* echo datagram */
+          {
+               u_int16_t icd_id;
+               u_int16_t icd_seq;
+          } ih_idseq;
+          u_int32_t ih_void;
+
+          /* ICMP_UNREACH_NEEDFRAG -- Path MTU Discovery (RFC1191) */
+          struct ih_pmtu
+          {
+               u_int16_t ipm_void;
+               u_int16_t ipm_nextmtu;
+          } ih_pmtu;
+
+          struct ih_rtradv
+          {
+               u_int8_t irt_num_addrs;
+               u_int8_t irt_wpa;
+               u_int16_t irt_lifetime;
+          } ih_rtradv;
+     } icmp_hun;
+#define icmp_pptr   icmp_hun.ih_pptr
+#define icmp_gwaddr icmp_hun.ih_gwaddr
+#define icmp_id     icmp_hun.ih_idseq.icd_id
+#define icmp_seq        icmp_hun.ih_idseq.icd_seq
+#define icmp_void   icmp_hun.ih_void
+#define icmp_pmvoid icmp_hun.ih_pmtu.ipm_void
+#define icmp_nextmtu    icmp_hun.ih_pmtu.ipm_nextmtu
+#define icmp_num_addrs  icmp_hun.ih_rtradv.irt_num_addrs
+#define icmp_wpa    icmp_hun.ih_rtradv.irt_wpa
+#define icmp_lifetime   icmp_hun.ih_rtradv.irt_lifetime
+     union
+     {
+          struct
+          {
+               u_int32_t its_otime;
+               u_int32_t its_rtime;
+               u_int32_t its_ttime;
+          } id_ts;
+          struct
+          {
+               struct ip idi_ip;
+               /* options and then 64 bits of data */
+          } id_ip;
+          struct icmp_ra_addr id_radv;
+          u_int32_t   id_mask;
+          u_int8_t    id_data[1];
+     } icmp_dun;
+#define icmp_otime  icmp_dun.id_ts.its_otime
+#define icmp_rtime  icmp_dun.id_ts.its_rtime
+#define icmp_ttime  icmp_dun.id_ts.its_ttime
+#define icmp_ip     icmp_dun.id_ip.idi_ip
+#define icmp_radv   icmp_dun.id_radv
+#define icmp_mask   icmp_dun.id_mask
+#define icmp_data   icmp_dun.id_data
+};
+{%endhighlight%}
+这里我们仅仅关注这个结构里面的#define ，它没有什么特别的，只要引入这个头文件，就可以用icmp_data 代替icmp_dun.id_data来使用，跟在其它地方定义的#define一样使用。为了说明为什么这样写，我依然举一个例子：
+{%highlight c linenos%}
+struct key_value {
+    int key;
+    char * value;
+};
+struct node{
+    struct key_value data;
+    struct node * next;
+} nodeA;
+{%endhighlight%}
+这里了就定义的一个单链表的结点，加入我们要访问结点的key了，那么我们要这样来nodeA.data.key，是不是要写几次点，如果结构更深了，这样有没有感觉访问成员的不是很方便？其实那个data在这里是没有什么必要的，要是能够这样nodeA.key来访问就好了。我们可以这样来改一下。
+{%highlight c linenos%}
+struct node{
+    struct key_value node_data;
+    struct node * next;
+#define node_key node_data.key
+#define node_value node_data.value
+} nodeA;
+{%endhighlight%}
+这样我们就可以用nodeA.node_key和nodeA.node_value来访问键值。这是如何做到的了，这就是标题所说起的一个#define别名的作用。nodeA.node_key和nodeA.node_value最终还是会被替换成了nodeA.node_data.node_key和nodeA.node_data.node_value来访问成员，但是我们不用关心了，这个工作交给了编译器去解决，我们可以更方便的去写代码。
+至于放在结构体里面的目的就是就近原则，相关代码写在一起，便于代码的理解。
+从这里我们可以看出#define宏都是替换的作用，只是目的性质不一样罢了。一是简单的值的替换，一是替换成相应的功能代码，一是替换成别名，容易称呼。不过道理虽懂，关键是要看自己的发挥、充分利用其性质去方便自己去实现一些功能。

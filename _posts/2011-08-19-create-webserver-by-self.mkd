@@ -1,0 +1,22 @@
+--- 
+type: post
+status: publish
+tags: 
+- webserver
+- 自己动手
+
+title: 自己动手写WEB SERVER (一)
+category: practice
+
+layout: post
+meta: 
+  _edit_last: "1"
+published: true
+---
+这个WEB SERVER 写来已经有很长时间了。中间也经历了很多事情，一开始就打算一边coding一边写相关博客的。但是总总事情一直都没有完成。现在下决心了开始写开发WEB SERVER的博客。这个WEB SERVER的代码现在会从新重构，并且完成未有完成的功能，做出第一个版本v0.1分支，这个在github.com/yalog上面会看到。
+
+这些文章主要阐述为什么这样coding，可能还会有理论理解方面的阐述。这些话题包括网络模型、多线程、内存管理、HTTP协议。
+
+这个WEB SERVER，我现在没有打算做的很强大。在v0.1版本里做到一个WEB SERVER的最小功能集合，并且达到一定的性能要求和稳定性。至于以后的版本以后再说。我们的开发环境做了很大的限制，没有做任何的移植考虑。我们的所有问题都假设在x86 2.6linux的基础之上。
+
+不过了，写一个功能、性能强大，足够健壮的WEB SERVER是很不容易的，还需要更多的磨练。

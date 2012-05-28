@@ -1,0 +1,19 @@
+--- 
+type: post
+status: draft
+tags: 
+- hash
+- !binary |
+  5a2m5Lmg
+
+title: !binary |
+  5YWz5LqOaGFzaA==
+
+layout: post
+meta: 
+  _edit_last: "1"
+published: false
+---
+一直觉得hash是一个很神奇的东西，能够通过一定的计算将一个内容映射到另一个内容。通过数学桥梁，建立了两个世界的关系。
+
+特征信息，散列

@@ -2,23 +2,19 @@
 layout: default
 ---
 
+{% for post in site.posts limit:5 %}
 
-		<!--Main Article-->
-		<div id="right_column">
-		{% for post in site.posts limit:5 %}
-		     <div class="article_column">
-			       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				   <p class="data">2012年四月9日17点31分 | 分类: <a href="#">广告</a>,<a href="#"> 科学</a></p>
-				   <div class="main_article">看完了俄裔美籍记者兼传记作家玛莎·葛森（Masha Gessen）写的《完美的证明》（北京理工大学出版社），有点小感想和大家分享。
-原书的题目叫做《Perfect Rigor》，这个Rigor是个双关语，一方面是本书主人公格里高列·佩雷尔曼（Grigori Perelman）的名字缩写，另一方面这个词有“严格”、“苛刻”的意思。
-佩雷尔曼是个俄罗斯数学家，2002年在网上贴出了关于庞加莱猜想的证明，后来被证明是正确的，因此获得了数学千禧年奖金，总计100万美元。这个奖是为了鼓励数学家向7个世纪难题发起冲击而设立的，迄今为止已过去了10年，目前仅有庞加莱猜想被攻克，其余6个还没有迹象。
-这本书难度相当大，因为葛森从来没有见过佩雷尔曼，全部是根据对其他相关人士的采访写成了此书，很不容易。</div>
-<div class="read_more"><a href="{{post.url}}">Read More »</a></div>
-			 </div>
-			 {% endfor %}
+<div class="article_column">
+	<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+	<p class="data">{{ post.date | date: '%Y年%m月%d日%H点%i分' }} | 分类:
+	{% for category in post.categorys %}
+	<a href="/categories/{{ category | replace:' ','-' | downcase }}/">{{category}}</a>{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+	</p>
+	<div class="main_article">{{ post.content | split:'<!--split-->' | first}}</div>
+	{% if post.content contains '<!--split-->' %}
+	<div class="read_more"><a href="{{post.url}}#more">Read More&raquo;</a></div>
+	{% endif %}
+</div>
 
-			 <div id="nav_below">
-			     <p><a href="#">← Older posts</a></p>
-			 </div>
-		</div>
-		<p style="clear:both"></p>
+{% endfor %}

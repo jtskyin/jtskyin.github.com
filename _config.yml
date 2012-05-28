@@ -9,3 +9,4 @@ permalink: /:year/:month/:day/:title/
 category_dir: ../categories/
 tag_dir: ../tags/
 tag_title_prefix: 'Tag: '
+safe: false

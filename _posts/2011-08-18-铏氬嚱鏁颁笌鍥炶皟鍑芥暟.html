@@ -1,0 +1,44 @@
+--- 
+type: post
+status: draft
+tags: 
+- thinking
+- !binary |
+  5a2m5Lmg
+
+title: !binary |
+  6Jma5Ye95pWw5LiO5Zue6LCD5Ye95pWw
+
+layout: post
+meta: 
+  _edit_last: "1"
+published: false
+---
+这两个词一直没有联系来过。。突然，发现了其实虚函数就是一种回调函数。
+在做 reactor模式编程时，看到别人用c++的实现。我在c中使用回调函数实现的事件处理，他们使用的一个基类，实现了几个虚函数接口。例如
+
+c:
+<pre class="brush:cpp">typedef void (*event_handler_pt)(event_t *ev); //调用的形式
+event_read_reg(event_handler_pt *hp);
+{...
+read_handler(ev);
+...}</pre>
+c++:
+<pre class="brush:cpp">class handler
+{
+public:
+virtual void onRead() = 0; //调用的形式
+virtual void onWrite() = 0;
+virtual void onAccept() = 0;
+};
+
+class Reactor  
+{  
+public:  
+    int register_handler(Event_Handler *pHandler, int event);  
+    int remove_handler(Event_Handler *pHandler, int event);  
+    void handle_events(timeval *ptv);  
+    // ...  
+};  
+</pre>
+从中可以看到就是没有涉及到任何关于函数的实现，只是申明了函数被调用的形式，和注册调用的地方。只是c是纯粹的调用原型函数，而c++是通过一个接口类，用虚函数表来调用到相应的原型函数。实际上是通过不同的封装形式实现了这个回调函数的指针，从而回调到具体的函数实现。可以说虚函数就是一种回调函数。在这种意义上来说，我们可以看一些问题了。虚函数的应用场景，在MFC中的应用。
