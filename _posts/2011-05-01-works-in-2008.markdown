@@ -1,0 +1,22 @@
+---
+layout: post
+title: 翻出来大一的一些手绘
+tags:
+- Art_works
+category: Design
+status: private
+type: post
+published: false
+meta:
+  _edit_last: '1'
+---
+从人人网的相册里面翻出来的大一画的一些素描。虽然水平蛮糟，但是矫情点说，这也是最初的梦想了吧。
+
+刚在网上搜现在UED的各个大牛的信息，看到唐沐、Ricky还有Rokey都是不是科班出身，感觉还有一丝慰藉。
+
+但是转念一想，时代不同了，现在的UI交互什么的都在日趋成熟……唔，压力还是蛮大的。现在的主要功夫就是赶紧多做，少纠结，船到桥头自然直。
+<img alt="" src="http://fc05.deviantart.net/fs70/f/2011/121/8/6/a_kitty_by_imjacob-d3fb29b.jpg" title="draw" class="alignnone" width="400" height="600" />
+<img alt="" src="http://fc09.deviantart.net/fs71/i/2011/121/0/7/sportman_by_imjacob-d3fb26g.jpg" title="draw" class="alignnone"  /><!--more-->
+<img alt="" src="http://fc06.deviantart.net/fs71/f/2011/121/b/a/women_by_imjacob-d3fb2z8.jpg" title="draw" class="alignnone" width="400" height="600" />
+<img alt="" src="http://fc03.deviantart.net/fs70/f/2011/121/7/c/shoes_by_imjacob-d3fb2ch.jpg" title="d" class="alignnone" width="400" height="300" />
+<img alt="" src="http://fc09.deviantart.net/fs70/f/2011/121/f/b/flower_by_imjacob-d3fb2bs.jpg" title="d" class="alignnone" width="400" height="600" />
