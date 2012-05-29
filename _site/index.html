@@ -19,14 +19,6 @@
 			  </div>
 			  <dl id="catalog">
 			     <dt>category</dt>
-				 
-				 <dd><a href="/categories/thinking/">thinking</a></dd>
-				
-				 <dd><a href="/categories/works/">works</a></dd>
-				
-				 <dd><a href="/categories/study/">study</a></dd>
-				
-				 <dd><a href="/categories/practice/">practice</a></dd>
 				
 			  </dd>
 			  <dl id="links">
@@ -49,87 +41,135 @@
 			
 
 <div class="article_column">
-	<h2><a href="/2011/11/09/learn-write-hash/">学写hash</a></h2>
-	<p class="data">2011年11月09日00点%i分 | 分类:
+	<h2><a href="/2012/04/14/%25e7%258e%258b%25e5%25b0%258f%25e6%25b3%25a2%25e7%259a%2584%25e6%2584%258f%25e4%25b9%2589-%25e3%2580%2590%25e8%25bd%25ac%25e3%2580%2591/">王小波的意义 【转】</a></h2>
+	<p class="data">2012年04月14日00点12分 | 分类:
 	
+	<a href="/categories/thinkhole/">Thinkhole</a>
+	
+	评论
+		 | <a href="/2012/04/14/%25e7%258e%258b%25e5%25b0%258f%25e6%25b3%25a2%25e7%259a%2584%25e6%2584%258f%25e4%25b9%2589-%25e3%2580%2590%25e8%25bd%25ac%25e3%2580%2591/#disqus_thread" data-disqus-identifier="/2012/04/14/%e7%8e%8b%e5%b0%8f%e6%b3%a2%e7%9a%84%e6%84%8f%e4%b9%89-%e3%80%90%e8%bd%ac%e3%80%91">Comments</a> 
+		
+
+		
 	</p>
-	<div class="main_article"><p>相信看这篇文章的人都学过Hash，但是学归学过，第一个hash函数就是不知道应该如何开始。所以了，这里不讨论书本上讲的内容，不讲理论，就是要告诉大家如何设计第一个Hash函数，当然大神们飘过<sup>_^</sup></p>
+	<div class="main_article"><p><strong>关于王小波，有太多的话要说，不过我最喜欢这句：我最想做的不是提升别人的灵魂，而是提升自己的灵魂。</strong></p>
 
-<p>我觉得那些关于数字方面的hash还是蛮简单的，只要明白字符串的hash怎么做了，其它的应该都会了。很简单的思考一下字符串hash，大不了我们把每个byte或者每几个byte相加呗，貌似是一个不错的想法。但是我们看一下这个样一个字符串”abcdef”和”fedcba”。你可以发现，这两个字符串是相互颠倒的，明显不应该是同一个字符串，按照上面的方法计算的值确实一样的。</p>
+<hr />
 
-<p>Ok，再来看几种情况，”abcdef”和”acbdfe”， ”abcdef”和”aaceef”，他们按照上面的方法计算的值依然是一样的。总结一下这几种情况，一是存在的字符一样，只是位置不一致；二是它们在某些字符上面加上和减去相同值导致。我们肉眼看到的不同字符串，结果计算的hash值是一样的。之所以是这样，是因为我们看到的字符串中的字符是有位置顺序的，因此我们必须把这个因素考虑进去。因此，我们可以利用其他进制转化十进制时，所谓的按权位展开，把位置因素加进去。
-我们看一下有名的times33算法，它是一个字符串hash。</div>
+<p><a href="http://blog.sina.com.cn/s/blog_473d53360102ec9w.html" target="_blank">转自王小波老婆的博客</a></p>
+
+<p>在小波辞世十五年之际，我想谈谈王小波的意义。起因是有记者提出一个问题：为什么主流文学界一直对王小波不予置评。他们采访到的一些官方评论家甚至说：王小波是谁？我没读过。一个客观事实是：尽管王小波在全国的大学生（甚至一些比较好的中学例如北京四中的中学生）中间已经是偶像级人物，但是他并不是作协会员，也没得过国内任何一个文学奖（台湾和海外的奖项倒是有过几个），官方的文学史里也没有他的名字。
+我觉得这个奇特现状的原因在于，按照中国当代文学的评价体系，王小波的确没地方放，无法置评，因为他从经历到作品都游离在这个体系之外。所谓经历是指他既非文学系的学生，也非作协会员，只是一个自由的写作者；所谓作品的游离是指，他的写作目的和他的作品都远离既存评价体系，因此使得体系内的评论家无从评判，只能沉默。
+王小波在很年轻的时候就曾说过：我要试着创造出一点美。这就是他的文学的全部目的。而官方文学的目的却不在于此，它有太多美感之外的功能。</p>
+
+</div>
 	
-	<div class="read_more"><a href="/2011/11/09/learn-write-hash/#more">Read More&raquo;</a></div>
+	<div class="read_more"><a href="/2012/04/14/%25e7%258e%258b%25e5%25b0%258f%25e6%25b3%25a2%25e7%259a%2584%25e6%2584%258f%25e4%25b9%2589-%25e3%2580%2590%25e8%25bd%25ac%25e3%2580%2591/#more">Read More&raquo;</a></div>
 	
 </div>
-
 
 
 <div class="article_column">
-	<h2><a href="/2011/11/09/campus-recruitment-experience/">校招面经</a></h2>
-	<p class="data">2011年11月09日00点%i分 | 分类:
+	<h2><a href="/2011/12/17/%25e6%2596%25b0%25e4%25bd%259c%25ef%25bc%259a%25e8%2587%25aa%25e5%2588%259b%25e7%259a%2584%25e5%25a4%25a7%25e9%25bb%2584%25e8%259c%2582radiomp3-player/">新作：自创的大黄蜂Radio&MP3 Player</a></h2>
+	<p class="data">2011年12月17日00点12分 | 分类:
 	
-	</p>
-	<div class="main_article"><p>首先了，这次虽然是拿到了几个offer，但找工作的时候还是挺郁闷的。我找的是开发类的工作，偏向后端的那种，有一家向往已久了公司，不过最后还是选择去了另一家。总之了，这里写写面经赞赞人品。</p>
+	<a href="/categories/design/">Design</a>
+	
+	评论
+		 | <a href="/2011/12/17/%25e6%2596%25b0%25e4%25bd%259c%25ef%25bc%259a%25e8%2587%25aa%25e5%2588%259b%25e7%259a%2584%25e5%25a4%25a7%25e9%25bb%2584%25e8%259c%2582radiomp3-player/#disqus_thread" data-disqus-identifier="/2011/12/17/%e6%96%b0%e4%bd%9c%ef%bc%9a%e8%87%aa%e5%88%9b%e7%9a%84%e5%a4%a7%e9%bb%84%e8%9c%82radiomp3-player">Comments</a> 
+		
 
-<p>面经在网上一搜一大把，很多的是讲面试的流水账。开始了，在面试技巧方面我先阐述一下，这个算是个人的心得吧。如果你没有面试过，我劝你还是先找几家不是很想去的公司练练，实践才能出真理嘛。在面试的时候一定要表现的自信，能够让面试官从你身上看出你的不同点或者是亮点。回答问题的时候，需要表现出自己是一个有思想、有想法的人。要灵活的抓住面试的主动权，能够把话题引向自己擅长的领域。自己提问也是一个非常重要的环节，通过这个环节尽量给自己贴一些金，淡化笔试或者面试中不好的地方。当然这些也不是绝对的。</div>
-	
-	<div class="read_more"><a href="/2011/11/09/campus-recruitment-experience/#more">Read More&raquo;</a></div>
+		
+	</p>
+	<div class="main_article"><p>自己原创的一个收音机式的大黄蜂Mp3Player。本来完整的计划是先把图作出来，再接着用Flash把它做成能用的小程序，最后做成Air App放到桌面上。
+但是现在还有一个改造博客的任务在手，写代码还是在大学最后一个寒假时再做。
+先把设计部分拿上来。
+<img src="http://pic.yupoo.com/jacobz/BBd1d5ek/11WdNb.jpg" alt="radio" /></p>
+</div>
 	
 </div>
-
 
 
 <div class="article_column">
-	<h2><a href="/2011/08/19/create-webserver-by-self/">自己动手写WEB SERVER (一)</a></h2>
-	<p class="data">2011年08月19日00点%i分 | 分类:
+	<h2><a href="/2011/11/28/%25e5%2581%259a%25e4%25ba%2586%25e4%25b8%2580%25e5%25a5%2597icon/">做了一套icon</a></h2>
+	<p class="data">2011年11月28日00点12分 | 分类:
 	
+	<a href="/categories/design/">Design</a>
+	
+	评论
+		 | <a href="/2011/11/28/%25e5%2581%259a%25e4%25ba%2586%25e4%25b8%2580%25e5%25a5%2597icon/#disqus_thread" data-disqus-identifier="/2011/11/28/%e5%81%9a%e4%ba%86%e4%b8%80%e5%a5%97icon">Comments</a> 
+		
+
+		
 	</p>
-	<div class="main_article"><p>这个WEB SERVER 写来已经有很长时间了。中间也经历了很多事情，一开始就打算一边coding一边写相关博客的。但是总总事情一直都没有完成。现在下决心了开始写开发WEB SERVER的博客。这个WEB SERVER的代码现在会从新重构，并且完成未有完成的功能，做出第一个版本v0.1分支，这个在github.com/yalog上面会看到。</p>
+	<div class="main_article"><p>忙活了一个多星期，终于弄好了。另外也拿到了腾讯的offer,接下来可以安心弄我的AS3 Programming了~~</p>
 
-<p>这些文章主要阐述为什么这样coding，可能还会有理论理解方面的阐述。这些话题包括网络模型、多线程、内存管理、HTTP协议。</p>
 
-<p>这个WEB SERVER，我现在没有打算做的很强大。在v0.1版本里做到一个WEB SERVER的最小功能集合，并且达到一定的性能要求和稳定性。至于以后的版本以后再说。我们的开发环境做了很大的限制，没有做任何的移植考虑。我们的所有问题都假设在x86 2.6linux的基础之上。</p>
+<p><img src="http://pic.yupoo.com/jacobz/Byj2MmJF/medish.jpg" alt="icons" /></p>
 
-<p>不过了，写一个功能、性能强大，足够健壮的WEB SERVER是很不容易的，还需要更多的磨练。</p>
 </div>
 	
+	<div class="read_more"><a href="/2011/11/28/%25e5%2581%259a%25e4%25ba%2586%25e4%25b8%2580%25e5%25a5%2597icon/#more">Read More&raquo;</a></div>
+	
 </div>
-
 
 
 <div class="article_column">
-	<h2><a href="/2011/07/30/suggestion-simply-realize/">suggestion简单实现</a></h2>
-	<p class="data">2011年07月30日00点%i分 | 分类:
+	<h2><a href="/2011/11/26/%25e9%259a%258f%25e6%2583%25b3/">随想</a></h2>
+	<p class="data">2011年11月26日00点12分 | 分类:
 	
-	</p>
-	<div class="main_article"><p>今年暑假实习了，我做的了有一个模块是suggestion，也就是搜索关键词提示。 嗯。。这里了说一下我在做suggestion时的一些实现方法。</p>
+	<a href="/categories/thinkhole/">Thinkhole</a>
+	
+	评论
+		 | <a href="/2011/11/26/%25e9%259a%258f%25e6%2583%25b3/#disqus_thread" data-disqus-identifier="/2011/11/26/%e9%9a%8f%e6%83%b3">Comments</a> 
+		
 
-<p>suggestion的基本思想就是，根据你输入的一个前缀词，然后提示相关的词条。首先了，我们必须有一个suggestion词库，这个词库可以人工预制和使用各种方法来统计，来生成suggestion词库。以后所有的suggstion，都是根据这个词库来生成的。由此可知，suggestion的效果和这个词库是有莫大关系的。如果提示词想要出现在suggestion列表里，必须放在suggestion词库了。可能有的童鞋，有疑问了，为什么要我们自己建立这样一个词库，而不是使用通用的词库了。suggestion是为搜索服务的，所以suggestion必须是有利于搜索的词，再就是通过suggestion对用户的搜索行为导向。</div>
-	
-	<div class="read_more"><a href="/2011/07/30/suggestion-simply-realize/#more">Read More&raquo;</a></div>
+		
+	</p>
+	<div class="main_article"><p>最近在微博上看到这样一条微博：“【 余光中：人的四种类型 】 ①高级而有趣。使人敬而不畏、幸而不狎,交接愈久,芳香愈醇。 ②高级而无趣。虽人格高尚品学兼优,却乏幽默感,只能成为诤友或畏友。③低级而有趣。活泼乐天,能侃善闹,有所有常识却独无学问。走到哪里,哪里就笑声一片。④低级而无趣。既无品位,又无趣味,人皆避之。”</p>
+
+<p>联想到自己平日在网上闲逛却美其名曰扩展视野汲取知识，感觉很羞愧，现在看来，其实即使我天天刷google reader看cnbeta看知乎，获得的东西也只能算是常识，而非学识，常识只能算是饭后甜点最多增加点个人魅力，学识却能安身立命。以前我的目标是做一个有趣的人，以后我要做一个有趣又有用的人。</p>
+</div>
 	
 </div>
-
 
 
 <div class="article_column">
-	<h2><a href="/2011/05/02/define/">#define的使用</a></h2>
-	<p class="data">2011年05月02日00点%i分 | 分类:
+	<h2><a href="/2011/11/17/%25e3%2580%258a%25e4%25ba%25ba%25e4%25bd%2593%25e8%259c%2588%25e8%259a%25a32%25e3%2580%258b%25e8%25a7%2582%25e5%2590%258e%25e6%2584%259f%25e2%2580%25a6%25e2%2580%25a6/">《人体蜈蚣2》观后感……</a></h2>
+	<p class="data">2011年11月17日00点12分 | 分类:
 	
+	<a href="/categories/movie/">Movie</a>
+	
+	评论
+		 | <a href="/2011/11/17/%25e3%2580%258a%25e4%25ba%25ba%25e4%25bd%2593%25e8%259c%2588%25e8%259a%25a32%25e3%2580%258b%25e8%25a7%2582%25e5%2590%258e%25e6%2584%259f%25e2%2580%25a6%25e2%2580%25a6/#disqus_thread" data-disqus-identifier="/2011/11/17/%e3%80%8a%e4%ba%ba%e4%bd%93%e8%9c%88%e8%9a%a32%e3%80%8b%e8%a7%82%e5%90%8e%e6%84%9f%e2%80%a6%e2%80%a6">Comments</a> 
+		
+
+		
 	</p>
-	<div class="main_article">首先阐明一下是预处理，预处理并不是c语言的本身组成部分。它包括三个方面：宏定义、文件包含、条件编译。而#define 就属于宏定义，我们这里只谈#define。<br />
-一般情况下的编译流程是这样的，预处理-&gt;编译-&gt;连接。可以看出预处理是在编译前面的，就是说，预处理完后的源码文件才被编译。基于这一点了，我们可以看一下#define的一些用法。</div>
+	<div class="main_article"><p>豆瓣论坛是个好地方。《人体蜈蚣2》在国外上映不到一周，豆瓣上就有人贴出来<a href="http://movie.douban.com/subject/4099277/discussion/42428684/">下载地址</a>了。</p>
+
+<p>[caption id="" align="alignnone" width="432" caption="主角马丁"]<img title="主角" src="http://pic.yupoo.com/jacobz/BwDOm2lP/medish.jpg" alt="" width="432" height="245" />[/caption]</p>
+
+<p>半夜的时候下的，只用了20分钟不到。按照平时的习惯，我都会先在进度条上拖一遍再看，一路拖下来发现《人体蜈蚣1》简直弱爆了，这部才是正宗的cult片。</p>
+
+<p>《人体蜈蚣1》只是算引出了这个Ass2Mouth的概念，其实根本什么都没有，而且情节也弱爆了，引用一句影评来说里面的角色“都是笨死的”，但是就这居然还拿到了洛杉矶惊叫电影节最佳电影奖，唉。</p>
+
+</div>
 	
-	<div class="read_more"><a href="/2011/05/02/define/#more">Read More&raquo;</a></div>
+	<div class="read_more"><a href="/2011/11/17/%25e3%2580%258a%25e4%25ba%25ba%25e4%25bd%2593%25e8%259c%2588%25e8%259a%25a32%25e3%2580%258b%25e8%25a7%2582%25e5%2590%258e%25e6%2584%259f%25e2%2580%25a6%25e2%2580%25a6/#more">Read More&raquo;</a></div>
 	
 </div>
 
 
-			 <div id="nav_below">
-			     <p><a href="#">← Older posts</a></p>
-			 </div>
+ <div id="nav_below">
+ 
+    <span class="previous">Previous</span>
+  
+  <span class="page_number ">Page: 1 of 6</span>
+  
+    <a href="/page2" class="next ">Next</a>
+  
+</div>
 		</div>
 		<p style="clear:both"></p>
 

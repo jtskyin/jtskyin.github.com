@@ -19,8 +19,8 @@
 			  </div>
 			  <dl id="catalog">
 			     <dt>category</dt>
-				 {% for cat in site.categories %}
-				 <dd><a href="/categories/{{ cat | first | replace:' ','-' | downcase }}/">{{ cat | first }}</a></dd>
+				{% for cat in site.categories %}
+				<li><a href="/categories/{{ cat | first | replace:' ','-' | downcase }}/">{{ cat | first }}</a></li>
 				{% endfor %}
 			  </dd>
 			  <dl id="links">
@@ -41,9 +41,6 @@
 		<!--Main Article-->
 		<div id="right_column">
 			{{ content }}
-			 <div id="nav_below">
-			     <p><a href="#">← Older posts</a></p>
-			 </div>
 		</div>
 		<p style="clear:both"></p>
 
