@@ -3,8 +3,7 @@ layout: post
 title: Hello world！
 tags:
 - Sundries
-categorys:
-- Life
+categorys: Life
 status: publish
 type: post
 published: true

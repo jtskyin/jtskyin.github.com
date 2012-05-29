@@ -14,13 +14,13 @@
 	          <h1><a href="http://{{site.domain}}" alt="Jacob's Blog"> <image id="logo" alt="Jacob's Blog" src="http://{{site.domain}}/css/logo_.png"/></br><p id="name">Jacob's Blog<p></a></h1>
 		      <div id="nav">
 			        <p><a href="http://{{site.domain}}/about.html">about</a></p>
-					<p><a href="http://{{site.domain}}/archives">archives</a></p>
+					<p><a href="http://{{site.domain}}/archives/">archives</a></p>
 					<p><a href="http://{{site.domain}}/movie_music.html">m<sup>2</sup></a></p>
 			  </div>
 			  <dl id="catalog">
 			     <dt>category</dt>
 				{% for cat in site.categories %}
-				<li><a href="/categories/{{ cat | first | replace:' ','-' | downcase }}/">{{ cat | first }}</a></li>
+				<dd><a href="/categories/{{ cat | first | replace:' ','-' | downcase }}/">{{ cat | first }}</a></dd>
 				{% endfor %}
 			  </dd>
 			  <dl id="links">
