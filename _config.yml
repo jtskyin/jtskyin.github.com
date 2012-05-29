@@ -11,3 +11,4 @@ tag_dir: ../tags/
 tag_title_prefix: 'Tag: '
 safe: false
 paginate: 5
+exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']

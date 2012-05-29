@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% for post in site.posts limit:5 %}
+
+<div class="article_column">
+	<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+	<p class="data">{{ post.date | date: '%Y年%m月%d日%H点%I分' }} | 分类:
+	{% for category in post.categorys %}
+	<a href="/categories/{{ category | replace:' ','-' | downcase }}/">{{ category }}</a>{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+	评论{% unless page == post %}
+		 | <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a> 
+		{% endunless %}
+
+		{% capture absolute_url %}http://{{ site.domain }}{{ post.url }}{% endcapture %}
+	</p>
+	<div class="main_article">{{ post.content | split:'<!--more-->' | first}}</div>
+	{% if post.content contains '<!--more-->' %}
+	<div class="read_more"><a href="{{post.url}}#more">Read More&raquo;</a></div>
+	{% endif %}
+</div>
+{% endfor %}
+
+ <div id="nav_below">
+  {% if paginator.previous_page %}
+  <span class="previous">
+    {% if paginator.previous_page == 1 %}
+    <a href="/">Previous</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">Previous</a>
+    {% endif %}
+  </span>
+  {% else %}
+  <span class="previous disabled">
+   Previous
+  </span>
+  {% endif %}
+
+  <span class="pages">
+
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/">1</a>
+      {% endif %}
+
+
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+
+    {% endfor %}
+  </span>
+
+  {% if paginator.next_page %}
+  <span class="next">
+    <a href="/page{{paginator.next_page}}">Next</a>
+  </span>
+  {% else %}
+  <span class="next disabled">
+Next
+  </span>
+  {% endif %}
+</div>

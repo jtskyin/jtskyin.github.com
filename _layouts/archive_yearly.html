@@ -3,9 +3,9 @@ layout: default
 body: full-width page
 ---
 <div id="content">
-	<div class="post">
-		<h1 class="post-title">{{ page.year }}</h1>
-		<p class="lead">Posts from the year {{ page.year }}</p>
+	<div class="node">
+		<h1 class="title">{{ page.year }}</h1>
+		<p class="note">Posts from the year {{ page.year }}</p>
 		{% for m in (1..12) reversed %}
 			{% if page.collated_posts[page.year][m] %}
 				<h3>{{ m | date_to_month }}</h3>
