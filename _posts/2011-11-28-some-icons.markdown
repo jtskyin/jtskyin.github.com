@@ -5,11 +5,7 @@ tags:
 - Art_works
 categorys: Design
 status: publish
-type: post
 published: true
-meta:
-  _edit_last: '1'
-  views: '232'
 ---
 <p>忙活了一个多星期，终于弄好了。另外也拿到了腾讯的offer,接下来可以安心弄我的AS3 Programming了~~</p>
 <img src="http://pic.yupoo.com/jacobz/Byj2MmJF/medish.jpg" alt="icons" />
