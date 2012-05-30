@@ -47,7 +47,7 @@ meta:
 
 <a href="http://en.wikipedia.org/wiki/Hedy_Lamarr" target="_blank">海迪·拉玛（Hedy Lamarr）</a>就是其中一个。她曾是公认的“好莱坞最美丽的女人”，同时还是一位火箭科学家。她是跳频技术的共同发明人，并以此申请了专利。这项技术可以阻止敌方干扰我方信号，以保证导弹在既定轨道上正常飞行，比如鱼雷制导什么的。。。
 
-还有曾经出演过《纯真年代》《白宫风云》《纽约重案组》《少年正义联盟》的<a href="http://en.wikipedia.org/wiki/Danica_McKellar" target="_blank">丹尼卡·麦凯拉（Danica McKellar）</a>，她毕业于加州大学洛杉矶分校，主修数学，她和教授Lincoln Chayes及同学Brandy Winn合作完成了一篇论文，关于设计一个测试特定磁场性能的数学实验，该实验理论被称为“Chayes–McKellar–Winn theorem”。她还给小朋友们写了几本数学科普读物，书名很诱人——《Math Doesn’t Suck》和《Kiss My Math》，这两本书都成为当时的畅销书。虽然米国同学不擅长数学，但我想荷尔蒙旺盛的美国小弟们肯定受不了美女一会儿suck一会儿kiss my <span style="text-decoration: line-through;">ass</span> math，会买来看两眼插图什么的。
+还有曾经出演过《纯真年代》《白宫风云》《纽约重案组》《少年正义联盟》的<a href="http://en.wikipedia.org/wiki/Danica_McKellar" target="_blank">丹尼卡·麦凯拉（Danica McKellar）</a>，她毕业于加州大学洛杉矶分校，主修数学，她和教授Lincoln Chayes及同学Brandy Winn合作完成了一篇论文，关于设计一个测试特定磁场性能的数学实验，该实验理论被称为“Chayes–McKellar–Winn theorem”。她还给小朋友们写了几本数学科普读物，书名很诱人——《Math Doesn’t Suck》和《Kiss My Math》，这两本书都成为当时的畅销书。虽然米国同学不擅长数学，但我想荷尔蒙旺盛的美国小弟们肯定受不了美女一会儿suck一会儿kiss my?<span style="text-decoration: line-through;">ass</span> math，会买来看两眼插图什么的。
 
 <img src="http://photo14.bababian.com/upload5/20110303/CED83093AAB5EAA48A811ABFA451A232_500.jpg" alt="" />
 
