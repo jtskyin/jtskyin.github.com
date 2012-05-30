@@ -5,4 +5,3 @@ gem "hpricot"
 gem "nokogiri"
 gem "rdiscount"
 gem "gsl"
-gem 'thin'
