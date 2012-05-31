@@ -2,10 +2,7 @@ title: Jacob蜀黍的小屋
 desc:   设计开发生活
 domain: jtskyin.github.com
 markdown: rdiscount
-<<<<<<< HEAD
-=======
 pygments: true
->>>>>>> origin/master
 regeneration: true
 lsi: false
 permalink: /:year/:month/:day/:title/
@@ -13,9 +10,5 @@ category_dir: ../categories/
 tag_dir: ../tags/
 tag_title_prefix: 'Tag: '
 safe: false
-<<<<<<< HEAD
 paginate: 6
-=======
-paginate: 5
->>>>>>> origin/master
 exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']
