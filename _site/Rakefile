@@ -41,34 +41,3 @@ EOS
     system "open #{path}"
  end #task rake write
 
-#Usage: rake page["title"]
-desc "Given a title as an argument, create a new post file"
-task :page, :title do |t, args|
-  filename = "#{args.title.gsub(/\s/, '-').downcase}.markdown"
-  path = File.join("pages", filename)
-  if File.exist? path; raise RuntimeError.new("Won't clobber #{path}"); end
-  File.open(path, 'w') do |file|
-    file.write <<-EOS
----
-layout: page
-title: #{args.title}
-date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
----
-EOS
-    end
-    puts "Now open #{path} in an editor."
-    system "open #{path}"
- end #task rake page
-
-desc "Launch preview environment"
-task :preview do
-  system "jekyll --rdiscount --server"
-end # task :preview
-
-desc "Building the site and deploy to remote"
-task :deploy do
- system "jekyll --rdiscount && rsync -avz --progress --delete _site/ XXX@XXX.com:/home/jekyll/ "
-end # task :deploy
-
-#Load custom rake scripts
-Dir['_rake/*.rake'].each { |r| load r }
