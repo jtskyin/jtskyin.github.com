@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+<<<<<<< HEAD
         <loc>http://blog.yalog.info/2010/12/01/coming/</loc>
         <lastmod>2012-05-29T04:51:40+08:00</lastmod>
     </url>
@@ -126,6 +127,133 @@
     </url>
     <url>
         <loc>http://blog.yalog.info/movie_music.html</loc>
+=======
+        <loc>http://www.brucebot.com/2010/12/01/coming/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2010/12/01/hello-world/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2010/12/02/about-this-blog/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2010/12/02/south-park-fun/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2010/12/04/the-gard-at-the-back-of-university/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2010/12/04/yeah/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2010/12/08/fight/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/02/18/2011+with+me/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/02/18/breaking-bad/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/02/18/practise-id/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/02/22/2011-winter-practise/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/03/07/my-gtd-work/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/03/18/Natalie-Portman/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/04/08/im-not-here/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/04/09/life-shot/</loc>
+        <lastmod>2012-05-30T00:58:27+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/05/01/waiting-for-me/</loc>
+        <lastmod>2012-05-30T00:58:27+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/05/27/first-gui-work/</loc>
+        <lastmod>2012-05-30T00:58:27+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/07/09/over-school/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/09/05/a-song-of-ice-and-fire/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/10/08/whos-your-daddy/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/11/05/a-tip-for-ps-cs5/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/11/06/recent-GUI-works/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/11/17/human-shiesf/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/11/26/thinkhole/</loc>
+        <lastmod>2012-05-30T00:57:10+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/11/28/some-icons/</loc>
+        <lastmod>2012-05-30T16:20:39+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2011/12/17/big-yellow-bee-radiomp3-player/</loc>
+        <lastmod>2012-05-30T16:20:03+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/2012/04/14/about-wang-xiao-bo/</loc>
+        <lastmod>2012-05-30T16:49:02+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/404.html</loc>
+        <lastmod>2012-05-29T04:51:40+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/about.html</loc>
+        <lastmod>2012-05-29T04:51:40+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/archives/</loc>
+        <lastmod>2012-05-30T16:49:02+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/</loc>
+        <lastmod>2012-05-30T16:49:02+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.brucebot.com/movie_music.html</loc>
+>>>>>>> origin/master
         <lastmod>2012-05-29T04:51:40+08:00</lastmod>
     </url>
 </urlset>
