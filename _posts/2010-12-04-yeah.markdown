@@ -1,0 +1,20 @@
+---
+layout: post
+title: yeah!!!昨日网站流量超9000了！
+tags:
+- Tech_works
+- 南湖青年
+categorys: Life
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  views: '290'
+  _wp_old_slug: ''
+---
+半夜去查了下流量，周六一天总算超过9000了，达到了9130。
+不过现在的网站黏性还很不够。
+原因是……我想吐个槽！！！
+唉。。。加油啊！
+www.nhqn.com
