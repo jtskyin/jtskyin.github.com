@@ -16,7 +16,7 @@ layout: default
 
 		{% capture absolute_url %}http://{{ site.domain }}{{ post.url }}{% endcapture %}
 	</p>
-	<div class="main_article">{{ post.content | split:'<!--more-->' | first}}</div>
+	<div class="main_article">{{ post.content | split:'<!--more-->' }}</div>
 	{% if post.content contains '<!--more-->' %}
 	<div class="read_more"><a href="{{post.url}}#more">Read More&raquo;</a></div>
 	{% endif %}
