@@ -18,7 +18,8 @@ layout: default
 	</p>
 	<div class="main_article">
 	{% if post.content contains '<!--more-->' %}
-	    {{ post.content | split:'<!--more-->'| first }}
+	    {% assign postArray = post.content | split : '<!--more-->' %}
+	    {{ postArray |  first }}
 	{% else %}
         {{ post.content }}
 	{%endif%}

@@ -1,9 +1,6 @@
 title: Jacob蜀黍的小屋
-desc:   设计开发生活
 domain: jtskyin.github.com
 markdown: rdiscount
-pygments: true
-regeneration: true
 lsi: false
 permalink: /:year/:month/:day/:title/
 category_dir: ../categories/
