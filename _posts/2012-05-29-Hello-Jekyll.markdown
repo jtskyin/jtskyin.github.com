@@ -5,7 +5,7 @@ categorys: Coding
 status: publish
 published: true
 ---
-几天前听[王亚龙](http:blog.yalog.com,"yalog")同学说他把博客迁移到github，并且用jekyll搭建，速度很快很简洁，再者实在有点受不了原来那个wordpress的龟速（每次打开wp_admin都死我的噩梦），一时头脑发热，便决定迁移博客。
+几天前听[王亚龙](http://blog.yalog.com,"yalog")同学说他把博客迁移到github，并且用jekyll搭建，速度很快很简洁，再者实在有点受不了原来那个wordpress的龟速（每次打开wp_admin都死我的噩梦），一时头脑发热，便决定迁移博客。
 
 另外，之前一直在设计新的博客界面，这次也刚好把设计拿出来用了。这个logo图案是源自之前非常着迷的美剧《LOST》中的Jacob大神的leader阿努比斯，这次总算能拿出来了。
 
