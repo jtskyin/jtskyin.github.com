@@ -7,11 +7,12 @@ tags:
   - 
 date: 2012-06-10 16:28:15
 ---
-<object classid=“clsid27CDB6E－AE6D－11cf－96B8－444553540000" codebase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab＃4,0,0,0" > 
-<param name=“SRC" value=“yellow player"> 
-<param name=quality value=high> 
-<embed src=“{{site.domain}}/src/2012-06-12/Mp3Player.swf" quality=high 
-pluginspage =http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=S hockwaveFlash" type=“application/x－shockwave－flash"> 
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=11" > 
+<param name="SRC" value=“yellow player"> 
+<param name="quality" value="high"> 
+<param name="wmode" value="transparent"
+<embed src="http://imjacob.me/src/2012-06-12/Mp3Player.swf" quality=high 
+pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x－shockwave－flash"> 
 </embed> 
 </object> 
 
