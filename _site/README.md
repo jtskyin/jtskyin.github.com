@@ -1,4 +1,4 @@
-Source for [brucebot.com](http://brucebot.com) , a Personal blog about Robotics Automation.
+Source for [imjacob.me](http://imjacob.me) , a Personal blog about Robotics Automation.
 
 Read the Post [Blog with Jekyll and Markdown](http://brucebot.com/2012/03/blog_with_jekyll_and_markdown/) for more information.(Chinese Only)
 

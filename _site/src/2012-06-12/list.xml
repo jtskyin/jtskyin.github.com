@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mysong>
+<song>
+   <singer>井宝秀人</singer>
+   <album>A Beautiful Nightmare</album>
+   <name>Dying in the sun</name>
+   <url>mp3/1.mp3</url>
+</song>
+
+<song>
+   <singer>Eason Chen</singer>
+   <album>Listen to Eason Chen</album>
+   <name>时代巨轮</name>
+   <url>mp3/2.mp3</url>
+</song>
+
+<song>
+   <singer>Eason Chen</singer>
+   <album>The Easy Ride</album>
+   <name>阳性反应</name>
+   <url>mp3/3.mp3</url>
+</song>
+<song>
+   <singer>Radiohead</singer>
+   <album>Hail To The Thief</album>
+   <name>I Will</name>
+   <url>mp3/4.mp3</url>
+</song>
+<song>
+   <singer>周杰伦</singer>
+   <album>范特西</album>
+   <name>忍者</name>
+   <url>mp3/5.mp3</url>
+</song>
+<song>
+   <singer>陈奕迅</singer>
+   <album>我的快乐时代</album>
+   <name>如果这一秒你跟我讲你不爱我</name>
+   <url>mp3/1.mp3</url>
+</song>
+<song>
+   <singer>Stefanie Sun</singer>
+   <album>逆光</album>
+   <name>我怀念的</name>
+   <url>mp3/3.mp3</url>
+</song>
+</mysong>
