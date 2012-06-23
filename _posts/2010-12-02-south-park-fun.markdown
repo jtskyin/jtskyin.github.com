@@ -6,7 +6,7 @@ tags:
 - np
 - 南方公园
 - 重口味
-category: Life
+category: Movie
 status: publish
 type: post
 published: true
