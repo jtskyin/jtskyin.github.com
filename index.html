@@ -11,10 +11,7 @@ layout: default
 	<a href="/categories/{{ category | replace:' ','-' | downcase }}/">{{ category }}</a>{% unless forloop.last %},{% endunless %}
 	{% endfor %}
 	 |
-	评论
-		 <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a> 
-
-		{% capture absolute_url %}http://{{ site.domain }}{{ post.url }}{% endcapture %}
+	评论<a href="{{ post.url }}#disqus_thread"></a>
 	</p>
 	<div class="main_article">
 	{% if post.content contains '<!--more-->' %}
