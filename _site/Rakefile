@@ -28,8 +28,7 @@ task :write, [:title, :category] do |t, args|
     file.write <<-EOS
 ---
 layout: post
-categories: 
- - #{args[:category]}
+categorys:  #{args[:category]}
 title: #{args[:title]}
 tags:
   - 
