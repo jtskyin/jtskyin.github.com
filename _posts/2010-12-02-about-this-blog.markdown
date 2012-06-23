@@ -3,7 +3,7 @@ layout: post
 title: 关于这个博客
 tags:
 - Life
-categorys: Life
+category: Life
 status: publish
 type: post
 published: true

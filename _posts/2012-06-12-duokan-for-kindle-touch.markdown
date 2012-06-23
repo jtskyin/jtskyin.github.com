@@ -1,6 +1,6 @@
 ---
 layout: post
-categorys: Life
+category: Life
 title: duokan for kindle touch使用感受
 date: 2012-06-12  6:48:31
 ---

@@ -3,7 +3,7 @@ layout: post
 title: 无题
 tags:
 - Art_works
-categorys: Design
+category: Design
 status: publish
 type: post
 published: true

@@ -3,7 +3,7 @@ layout: post
 title: 新作：自创的大黄蜂Radio&MP3 Player
 tags:
 - Art_works
-categorys: Design
+category: Design
 status: publish
 published: true
 ---

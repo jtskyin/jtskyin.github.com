@@ -3,7 +3,7 @@ layout: post
 title: 做了一套icon
 tags:
 - Art_works
-categorys: Design
+category: Design
 status: publish
 published: true
 ---

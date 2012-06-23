@@ -6,7 +6,7 @@ tags:
 - Art_works
 - Tee
 - 设计
-categorys: Design
+category: Design
 status: publish
 type: post
 published: true

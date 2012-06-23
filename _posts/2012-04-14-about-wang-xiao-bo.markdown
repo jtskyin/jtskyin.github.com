@@ -3,7 +3,7 @@ layout: post
 title: 王小波的意义 【转】
 tags:
 - Thinkhole
-categorys: Thinkhole
+category: Thinkhole
 status: publish
 published: true
 ---

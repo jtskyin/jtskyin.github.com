@@ -6,14 +6,10 @@ tags:
 - np
 - 南方公园
 - 重口味
-categorys: Life
+category: Life
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  views: '293'
-  _wp_old_slug: ''
 ---
 <a href="http://imjacob.me/wp-content/uploads/2010/12/images.jpg"><img src="http://imjacob.me/wp-content/uploads/2010/12/images.jpg" alt="" title="south park" width="226" height="223" class="alignnone size-full wp-image-41" /></a>
 大一以来才迷上看美剧，

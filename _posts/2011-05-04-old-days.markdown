@@ -3,7 +3,7 @@ layout: post
 title: 往日情怀与高贵格调
 tags:
 - Sundries
-categorys: Movie
+category: Movie
 status: draft
 type: post
 published: false

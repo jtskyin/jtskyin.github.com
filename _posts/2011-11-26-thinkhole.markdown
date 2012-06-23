@@ -4,7 +4,7 @@ title: 随想
 tags:
 - Thinkhole
 - 趣味
-categorys: Thinkhole
+category: Thinkhole
 status: publish
 type: post
 published: true

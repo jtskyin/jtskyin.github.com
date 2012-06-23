@@ -3,7 +3,7 @@ layout: post
 title: 加油！
 tags:
 - Thinkhole
-categorys: Thinkhole
+category: Thinkhole
 status: publish
 type: post
 published: true

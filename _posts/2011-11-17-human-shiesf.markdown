@@ -5,7 +5,7 @@ tags:
 - Movie&amp;Music
 - 人体蜈蚣
 - 电影
-categorys: Movie
+category: Movie
 status: publish
 type: post
 published: true

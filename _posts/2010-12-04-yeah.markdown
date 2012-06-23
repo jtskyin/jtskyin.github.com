@@ -4,7 +4,7 @@ title: yeah!!!昨日网站流量超9000了！
 tags:
 - Tech_works
 - 南湖青年
-categorys: Life
+category: Life
 status: publish
 type: post
 published: true

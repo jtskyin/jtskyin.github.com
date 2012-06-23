@@ -8,7 +8,7 @@ tags:
 - 未来规划
 - 设计
 - 重口味
-categorys: Life
+category: Life
 status: publish
 type: post
 published: true

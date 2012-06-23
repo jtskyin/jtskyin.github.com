@@ -5,7 +5,7 @@ tags:
 - '2011'
 - Thinkhole
 - 未来规划
-categorys: Life
+category: Life
 status: publish
 type: post
 published: true

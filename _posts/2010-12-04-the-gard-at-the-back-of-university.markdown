@@ -4,7 +4,7 @@ title: 学校荒芜的后花园
 tags:
 - Life_shot
 - 野战，华农
-categorys: Photograph
+category: Photograph
 status: publish
 type: post
 published: true

@@ -4,7 +4,7 @@ title: 这几天画的身边的几个小东西
 tags:
 - Art_works
 - UI
-categorys: Design
+category: Design
 status: publish
 type: post
 published: true

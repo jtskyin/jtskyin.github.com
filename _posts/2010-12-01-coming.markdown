@@ -5,11 +5,8 @@ tags:
 - Sundries
 status: publish
 type: post
+category: Life
 published: true
-meta:
-  _edit_last: '1'
-  _wp_old_slug: ''
-  views: '264'
 ---
 做这个也真是够麻烦的……
 

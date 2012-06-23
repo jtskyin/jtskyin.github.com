@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello Jekyll
-categorys: Coding
+category: Coding
 status: publish
 published: true
 ---

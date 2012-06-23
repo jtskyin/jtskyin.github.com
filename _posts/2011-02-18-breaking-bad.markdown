@@ -5,7 +5,7 @@ tags:
 - Movie&amp;Music
 - Thinkhole
 - 美剧，绝命毒师，LOST
-categorys: Movie
+category: Movie
 status: publish
 type: post
 published: true

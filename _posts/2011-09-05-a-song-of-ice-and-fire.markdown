@@ -4,7 +4,7 @@ title: 冰火的虐《A Song of Kill and Fuck》
 tags:
 - Movie&amp;Music
 - 冰与火之歌
-categorys: Movie
+category: Movie
 status: publish
 type: post
 published: true

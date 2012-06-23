@@ -4,7 +4,7 @@ title: ! '[小分享]关于解决Photoshop CS5打开后出现已停止工作强�
 tags:
 - Ps
 - Tech_works
-categorys: Design
+category: Design
 status: publish
 type: post
 published: true
