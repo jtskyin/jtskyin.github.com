@@ -10,9 +10,9 @@ layout: default
 	{% for category in post.categorys %}
 	<a href="/categories/{{ category | replace:' ','-' | downcase }}/">{{ category }}</a>{% unless forloop.last %},{% endunless %}
 	{% endfor %}
-	评论{% unless page == post %}
-		 | <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a> 
-		{% endunless %}
+	 |
+	评论
+		 <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a> 
 
 		{% capture absolute_url %}http://{{ site.domain }}{{ post.url }}{% endcapture %}
 	</p>
