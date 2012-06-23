@@ -24,5 +24,5 @@ p.s.另外其实五月份左右的时候，参加公司毕业生的一个游戏�
 <param name="base" value="." />
 <param name="play" value="true" />
 <param name="WMode" value="transparent" />
-<embed src="http://imjacob.me/src/2012-06-12/Mp3Player.swf" base="." width="800" height="700"  TYPE="application/x-shockwave-flash" pluginspace="http://www.macromedia.com/go/getflashplayer" wmode="transparent">  </embed> 
+<embed src="http://imjacob.me/src/2012-06-12/Mp3Player.swf" base="." width="700" height="550"  TYPE="application/x-shockwave-flash" pluginspace="http://www.macromedia.com/go/getflashplayer" wmode="transparent">  </embed> 
  </object>
