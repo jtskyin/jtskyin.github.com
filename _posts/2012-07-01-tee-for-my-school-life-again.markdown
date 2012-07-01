@@ -1,8 +1,9 @@
 ---
 layout: post
-category:  Design
-title:又是毕业T恤~
-tags:School life
+category: Design
+title: 又是毕业T恤~
+tags:
+  - School life
 date: 2012-07-01 21:19:18
 ---
 
