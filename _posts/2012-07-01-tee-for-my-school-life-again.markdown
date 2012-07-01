@@ -3,7 +3,6 @@ layout: post
 categorys:  Design
 title:又是毕业T恤~
 tags:School life
-  - 
 date: 2012-07-01 21:19:18
 ---
 <img src="http://pic.yupoo.com/jacobz/C5amSGnE/medium.jpg" alt="none"/>
