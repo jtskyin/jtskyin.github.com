@@ -1,8 +1,11 @@
 ---
 layout: post
-date:2012-08-14
+category: Movie
+title: 超脱
+tags:
+  - movie
+date: 2012-08-14 16:03:33
 published: false
-title:
 ---
 
 <img src="http://upload.wikimedia.org/wikipedia/en/thumb/2/20/Detachment_poster.jpg/220px-Detachment_poster.jpg" title="datachament" />
