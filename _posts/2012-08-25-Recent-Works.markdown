@@ -20,7 +20,6 @@ p.s. QQ公仔这个把我整惨了，软陶我恨你！！！
 <img src="http://pic.yupoo.com/jacobz/Cdye8taE/KKeuF.jpg" alt="QQ"/>
 <img src="http://pic.yupoo.com/jacobz/CdyhjQ2t/cyx6D.jpg" />
 <img src="http://pic.yupoo.com/jacobz/Cdyhl4Lp/Is07m.jpg" />
-<img src="http://pic.yupoo.com/jacobz/Cdyhl4Lp/Is07m.jpg" />
 <img src="http://pic.yupoo.com/jacobz/Cdyhwbvv/ISttE.png" />
 <img src="http://pic.yupoo.com/jacobz/CdyhAcCW/medish.jpg" />
 
