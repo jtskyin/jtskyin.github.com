@@ -5,7 +5,7 @@ title: 超脱
 tags:
   - movie
 date: 2012-08-14 16:03:33
-published: false
+published: true
 ---
 
 <img src="http://upload.wikimedia.org/wikipedia/en/thumb/2/20/Detachment_poster.jpg/220px-Detachment_poster.jpg" title="datachament" />
