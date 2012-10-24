@@ -7,12 +7,12 @@ tags:
 date: 2012-09-02 3:13:33
 published: true
 ---
-<img src="http://pic.yupoo.com/jacobz/CeDpQcVF/Pblen.png" width="500" height="330" title="my fujifilm" />
+<img src="http://pic.yupoo.com/jacobz/CeDpQcVF/Pblen.png" width="500" height="375" title="my fujifilm" />
 
 前段时间去十分坑爹的嵊泗团建，然后在这个海岛拍一群无聊的人抓螃蟹的时候我的相机不幸进水了。
 
 
-<img src="http://t1.qpic.cn/mblogpic/f8c84a87e00a18ebf474/2000"  title="嵊泗的徽章" />
+<img src="http://t1.qpic.cn/mblogpic/f8c84a87e00a18ebf474/2000" width="450" height="320"  title="嵊泗的徽章" />
 (我做的团队徽章)
 
 
