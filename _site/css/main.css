@@ -136,6 +136,33 @@ body {
    border-left:18px solid #19C49B;
 }
 
+.main_article h1 {
+   font-size:22px;
+   font-weight:700;
+}
+
+.main_article h2 {
+   font-size:18px;
+   font-weight:700;
+}
+
+.main_article h3 {
+   font-size:16px;
+   font-weight:700;
+}
+
+.main_article li,.main_article ol {
+   list-style-type : square;
+   margin:3px 0 0 3px;
+}
+
+.main_article pre {
+   display:block;
+   padding:5px;
+   margin:5px;
+   border:1px solid #ccc;
+}
+
 .data{
     font-size:12px;
 	color:#999;
