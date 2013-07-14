@@ -11,7 +11,7 @@ layout: default
 	<a href="/categories/{{ category | replace:' ','-' | downcase }}/">{{ category }}</a>{% unless forloop.last %},{% endunless %}
 	{% endfor %}
 	 |
-	评论<a href="http://imjacob.me/{{ post.url }}#disqus_thread"></a>
+	评论<a href="http://{{site.domain}}/{{ post.url }}#disqus_thread"></a>
 	</p>
 	<div class="main_article">
 	{% if post.content contains '<!--more-->' %}
