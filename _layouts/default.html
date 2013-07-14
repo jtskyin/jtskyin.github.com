@@ -2,8 +2,8 @@
 <html xmlns=http://www.w3.org/1999/xhtml>
 <head>
       <meta http-equiv=Content-Type content="text/html;charset=utf-8" />
-       <title>{% if page.title %}{{ page.title | append: ' - ' }}{% endif %}{{ site.title }}</title>
-	   <meta content="{{ site.title }}" name="description" />
+       <title>{{ page.title }} - {{page.globalTitle}}</title>
+	   <meta content="{{ page.title }}" name="description" />
 	   <meta content="bronn,bronnzheng,Jacob,jacob" name="keywords" />
 	   <meta content="bronn" content="author"/>
 	   <link href="http://{{site.domain}}/css/main.css" rel="stylesheet" type="text/css" media="screen"/>
