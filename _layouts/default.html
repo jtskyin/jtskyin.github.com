@@ -2,7 +2,7 @@
 <html xmlns=http://www.w3.org/1999/xhtml>
 <head>
       <meta http-equiv=Content-Type content="text/html;charset=utf-8" />
-       <title>{{ page.title }} - {{page.globalTitle}}</title>
+       <title>{% if page.title %}{{ page.title | append: ' - ' }}{% endif %}{{ site.title }}</title>
 	   <meta content="{{ page.title }}" name="description" />
 	   <meta content="bronn,bronnzheng,Jacob,jacob" name="keywords" />
 	   <meta content="bronn" content="author"/>
