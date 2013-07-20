@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 无远弗届
-tags: thinkhole
+tags: 
+ -thinkhole
 category: Life
 status: publish
 published: false
