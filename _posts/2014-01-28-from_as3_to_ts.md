@@ -20,4 +20,7 @@ published: true
 
 
 再说回Typescript。我之所以对它感兴趣，就是因为它在语法上跟Actionscript 3.0是如此之像，以至于我可以用很少的时间成本来将从Actionscript 3.0获得的编程知识直接运用到Javascript。是的，未来我也看好Javascript一统天下，让自己不至于落伍。
+
+
+
 <a href="http://www.nshen.net/article/2013-05-18/as3-to-typescript/"><strong>从 ActionScript3 到 TypeScript</strong></a>
