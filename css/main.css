@@ -190,11 +190,12 @@ body {
 }
 .main_article a{
 	color:#FC7F10;
+	text-decoration:underline
 }
 .main_article p{
     display:block;
     margin:16px 0;
-    line-height:24px
+    line-height:30px
 }
 .read_more{
    font-size:12px;
