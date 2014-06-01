@@ -108,7 +108,7 @@ body {
 
 #right_column{
     float:left;
-	width:75%px;
+	width:75%;
 	font-family:Arial;
 	margin-top:30px;
 }
@@ -194,9 +194,8 @@ body {
 }
 .main_article p{
     display:block;
-    margin:10px 0;
-    line-height:30px
-}
+    margin:5px 0 15px 0;
+    line-height:28
 .read_more{
    font-size:12px;
    line-height:22px;
