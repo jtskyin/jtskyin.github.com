@@ -56,9 +56,9 @@ a img {
 
 /* =Layout
 -------------------------------------------------------------- */
-body {
-    background-image:url(gray_bg.png);
-}
+/*body {
+   background-image:url(gray_bg.png);
+} */
 #left_column {
      float:left;
 	 display:block;
