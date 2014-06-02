@@ -195,7 +195,8 @@ body {
 .main_article p{
     display:block;
     margin:5px 0 15px 0;
-    line-height:28
+    line-height:28px;
+}
 .read_more{
    font-size:12px;
    line-height:22px;
