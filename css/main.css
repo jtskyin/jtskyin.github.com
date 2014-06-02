@@ -218,14 +218,14 @@ body {
 
 #footer{
    clear:both;
-   width:100%;
+   width:99%;
    height:30px;
    text-align:left;
    text-indent:30px;
    font-size:12px;
    color:#999;
    border-top:1px dotted #ccc;
-   margin:30px 5px;
+   margin:30px 0;
    line-height:26px;
 }
 #footer a{
