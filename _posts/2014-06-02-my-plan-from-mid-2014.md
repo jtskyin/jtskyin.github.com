@@ -24,7 +24,7 @@ published: true
 	7. 完成一个cinema4D渲染作品
 	8. 不玩PC游戏
 
-为此我决定开一个<del>tumblr</del> <a href=""http://qzsketch.lofter.com/">
+为此我决定开一个<del>tumblr</del> <a href="http://qzsketch.lofter.com/">
 lofter:QZ's sketch book</a>(突然想到tumblr要是我党哪天不高兴给强了那就坑了还是用国内的吧)，把每天的速写和每周的运动记录传上去。
 
 最后，还是那句老话：别规划了，赶紧干吧！
